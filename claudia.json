@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "simple-bot-executor",
+    "name": "simple-bot",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "6a3jwxpsvc",
+    "module": "bot"
+  }
+}

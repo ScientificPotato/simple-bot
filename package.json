@@ -1,0 +1,25 @@
+{
+  "name": "simple-bot",
+  "version": "1.0.0",
+  "description": "claudia-bot-builder",
+  "scripts": {
+    "create": "claudia create --api-module bot --region us-east-2",
+    "configure-tg": "claudia update --configure-telegram-bot",
+    "deploy": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/orgname"
+  },
+  "keywords": [
+    "claudiajs",
+    "claudia-bot-builder"
+  ],
+  "author": "authorname",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-bot-builder": "^4.3.1",
+    "huh": "^2.0.1",
+    "wikidata-search": "^1.0.3"
+  }
+}
